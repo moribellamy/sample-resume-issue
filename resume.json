@@ -1,0 +1,140 @@
+{
+  "basics": {
+    "name": "Mori Bellamy",
+    "label": "Programmer",
+    "picture": "me.jpg",
+    "email": "mori.bellamy@gmail.com",
+    "website": "https://irom.me",
+    "summary":
+      "A full stack generalist, I am comfortable making critical contributions all the way from the frontend through your backend business logic to the last system call of your RPC.",
+    "location": {
+      "city": "Mountain View",
+      "countryCode": "US",
+      "region": "California"
+    },
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "moribellamy",
+        "url": "https://github.com/moribellamy"
+      },
+      {
+        "network": "AngelList",
+        "username": "mori-bellamy",
+        "url": "https://angel.co/mori-bellamy"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "moribellamy",
+        "url": "https://www.linkedin.com/in/moribellamy/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Personal Projects and Consulting",
+      "position": "Consultant",
+      "website": "https://irom.me/",
+      "startDate": "2017-12-01",
+      "highlights": [
+        "Full stack development/architecture/devops with [HireNimble](https://www.hirenimble.com/)",
+        "References upon request."
+      ]
+    },
+    {
+      "company": "Wavefront ­> VMWare (successful exit)",
+      "position": "Senior Software Engineer",
+      "website": "https://www.wavefront.com/resources/",
+      "startDate": "2015-10-12",
+      "endDate": "2017-11-27",
+      "highlights": [
+        "Wavefront is the next generation metrics monitoring and alerting platform. Logs shouldn't be the first place you check for application health.",
+        "Designed and implemented [logs to metrics extraction](https://github.com/wavefrontHQ/java/blob/master/proxy/logsIngestion.yaml).",
+        "Bug fixes and features for ingestion, alerting, querying, and user management.",
+        "Production critical tooling and services, including operational dashboard for immediately and programatically remediating customer cluster issues.",
+        "Deep knowledge of entire release/QA/development/operational process.",
+        "Core member of interview panel in growing the dev team from 6 to 12 engineers."
+      ]
+    },
+    {
+      "company": "Google",
+      "position": "Software Engineer",
+      "website": "https://www.google.com/",
+      "startDate": "2009-06-27",
+      "endDate": "2015-09-25",
+      "highlights": [
+        "[Waze Carpool](https://www.waze.com/carpool/). Implemented the intelligent pricing engine for deciding how much drivers are offered for giving a passenger a ride. Data driven engine with many parameters optimized on acceptance rate.",
+        "[VM based python runtime for AppEngine](https://cloud.google.com/appengine/docs/flexible/), allows users to embrace containerization while still accessing the AppEngine PaaS.",
+        "[Borg](https://research.google.com/pubs/pub43438.html), which is Google's internal predecessor to Kubernetes. Wrote system and integration test framework."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Cornell University",
+      "area": "Computer Science",
+      "studyType": "Bachelor",
+      "startDate": "2005-08-22",
+      "endDate": "2009-05-27",
+      "gpa": "3.4",
+      "courses": [
+        "Data Structures",
+        "Algorithms",
+        "Compilers",
+        "Automata",
+        "OS",
+        "ML/AI",
+        "Logic",
+        "Set Theory",
+        "Literature",
+        "Writing",
+        "Philosophy"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Application Development (Skilled)",
+      "level": "Skilled",
+      "keywords": [
+        "Java",
+        "Python",
+        "C++",
+        "Linux",
+        "Architecture Design",
+        "Algorithms",
+        "Data Structures"
+      ]
+    },
+    {
+      "name": "Application Development (Proficient)",
+      "level": "Proficient",
+      "keywords": [
+        "Javascript",
+        "React",
+        "Django",
+        "TCP/IP",
+        "HTML/CSS",
+        "HTTP/REST",
+        "Docker",
+        "Go",
+        "Ruby"
+      ]
+    },
+    {
+      "name": "DevOps (Proficient)",
+      "level": "Proficient",
+      "keywords": ["Terraform", "AWS", "Packer", "Kubernetes", "Heroku"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English (Native)",
+      "fluency": "Native"
+    },
+    {
+      "language": "Japanese (Novice/Hobby)",
+      "fluency": "Novice/Hobby"
+    }
+  ]
+}

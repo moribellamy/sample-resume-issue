@@ -1,0 +1,24 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "Mori Bellamy's resume",
+  "dependencies": {
+    "hackmyresume": "^1.8.0",
+    "jsonresume-theme-elegant": "^1.11.2"
+  },
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^6.0.1",
+    "prettier": "^1.10.2"
+  },
+  "lint-staged": {
+    "resume.json": [
+      "prettier --semi --single-quote --print-width 100 --trailing-comma none --write",
+      "git add"
+    ]
+  },
+  "scripts": {
+    "test": "./generate.sh resume-test.html && diff resume.html resume-test.html",
+    "precommit": "lint-staged"
+  }
+}

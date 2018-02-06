@@ -1,0 +1,5 @@
+node_modules/
+resume-test.html
+.idea/
+*.swp
+.DS_Store
