@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Mori Bellamy's resume",
   "dependencies": {
-    "hackmyresume": "^1.8.0",
+    "hackmyresume": "hacksalot/HackMyResume#e6e0b135edcfabc6d61fb0f8515a174470612415",
     "jsonresume-theme-elegant": "^1.11.2"
   },
   "devDependencies": {
@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "test": "./generate.sh resume-test.html && diff resume.html resume-test.html",
+    "test": "./test.sh",
     "precommit": "lint-staged"
   }
 }
